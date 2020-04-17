@@ -9,9 +9,9 @@
         <link rel="stylesheet" href="style.css"> 
     </head>     
     <body> 
-        <div class=" container-fluid"> 
-            <header class="row"> 
-                <nav class="align-items-center col-12 d-flex flex-wrap"> 
+        <div class="container total pl-0 pr-0"> 
+            <header class="ml-0 mr-0 row"> 
+                <nav class="align-items-center col-12 d-flex flex-wrap "> 
                     <div class="col-12 col-md-4 logo-div text-center text-md-left"> 
                         <a href="index.html"><img src="imgs/logo1.png" alt="logo" class="logo mb-2  position-relative"> <span class="patashule">unihelp</span></a> 
                     </div>                     
@@ -32,7 +32,125 @@
                 </nav>                 
             </header>             
             <main> 
-            </main>
-        </div>
-        </body>
-        </html>
+                <div class="house-block mt-5 pb-5 pl-2 pl-md-3 pr-3 pt-5"> 
+                    <p class="font-weight-bold text-center txt-filter">Filter by name, country, location, university and ocupants:</p> 
+                    <div class="d-md-flex justify-content-start mt-5 pl-md-5 pr-2 pr-md-0"> 
+                        <div class="form-group mr-md-1 "> 
+                            <label for="formInput60" class="font-weight-bold text-dark">UNI NAME:*</label>                             
+                            <input type="text" class="form-control" id="formInput60"> 
+                        </div>                         
+                        <div class="form-group mr-md-1 "> 
+                            <label for="formInput145" class="font-weight-bold text-dark">CITY:</label>                             
+                            <select id="formInput145" class="form-control text-dark"> 
+                                <option>City1</option>                                 
+                                <option>City2</option>                                 
+                                <option>City3</option>                                 
+                            </select>                             
+                        </div>                         
+                        <div class="form-group mr-md-1 "> 
+                            <label for="formInput115" class="font-weight-bold text-dark">TYPE:</label>                             
+                            <select id="formInput115" class="form-control"> 
+                                <option>Type1</option>                                 
+                                <option>Type2</option>                                 
+                                <option>Type3</option>                                 
+                            </select>                             
+                        </div>                         
+                        <div class="form-group mr-md-1 "> 
+                            <label for="formInput135" class="font-weight-bold text-dark">GENDER:</label>                             
+                            <select id="formInput135" class="form-control"> 
+                                <option>Gender1</option>                                 
+                                <option>Gender2</option>                                 
+                            </select>                             
+                        </div>                         
+                        <div class="form-group mr-md-1 "> 
+                            <label for="formInput165" class="font-weight-bold text-dark">PEOPLE</label>                             
+                            <select id="formInput165" class="form-control"> 
+                                <option>1</option>                                 
+                                <option>2</option>                                 
+                                <option>3</option>                                 
+                                <option>4</option>                                 
+                                <option>5</option>                                 
+                                <option>more</option>                                 
+                            </select>                             
+                        </div>                         
+                        <div class="align-items-end d-inline-flex mr-md-1 "> 
+                            <button type="button" class="btn btn-primary font-weight-bold mb-3">Search</button>                             
+                        </div>                         
+                        <div class="align-items-end d-inline-flex"> 
+                            <button type="button" class="btn btn-warning font-weight-bold mb-3 text-white">Clear filter</button>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+                <div class="mb-5 mt-5 object-results"> 
+                    <p class="font-weight-bold found-r pb-3 text-center text-secondary">Search Results Found 3 house(s)</p> 
+                    <div class="d-md-flex justify-content-around objects-r"> 
+                        <div class="col-12 col-md-3 object-r"> 
+                            <a href="result.html"> <p class="pt-5 text-center">Name:DEMOTHREE</p> </a> 
+                        </div>                         
+                        <div class="col-12 col-md-3 mb-2 mb-md-0 mt-2 mt-md-0 object-r"> 
+                            <a href="result.html"> <p class="pt-5 text-center">Name:DEMOTWO</p> </a> 
+                        </div>                         
+                        <div class="col-12 col-md-3 object-r"> 
+                            <a href="result.html"> <p class="pt-5 text-center">Name:DEMOONE</p> </a> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </main>             
+        </div>         
+    </body>     
+    <footer> 
+        <div class="nav-back pb-3 pl-5 pr-5 pt-5 container total"> 
+            <div class="align-items-center back border border-left-0 border-right-0 border-secondary divi justify-content-around mt-lg-3 nav  pb-2 pt-2"> 
+                <div class="col-12 col-lg-6 d-flex flex-wrap justify-content-around justify-content-lg-between mb-5 mb-lg-0 pl-0 pr-0 pr-lg-5"> 
+                    <a href="index.html" class="text-white">HOME</a> 
+                    <a href="search.html" class="pl-2 text-white">SEARCH</a> 
+                    <a href="#" class="pl-2 text-white">ABOUT US</a> 
+                    <a href="#" class=" mr-5 text-white">ADVERTISE</a> 
+                </div>                 
+                <div class="border border-secondary last-back p-3 p-lg-4"> 
+                    <img src="imgs/logo-n.png" alt="logo negro" class="img-rounded "> 
+                </div>                 
+                <div class="col-12 col-lg-6 d-flex flex-wrap justify-content-around justify-content-lg-between mt-5 mt-lg-0 pl-0 pl-lg-5"> 
+                    <a href="#" class="ml-0 ml-lg-5 mr-2 text-white">FACEBOOK</a> 
+                    <a href="#" class="pr-2 text-white">TWITTER</a> 
+                    <a href="#" class="pr-2 text-white">BLOG</a> 
+                    <a href="#" class="text-white">GOOGLE+</a> 
+                </div>                 
+            </div>             
+            <div class="d-flex flex-wrap mt-4 mt-lg-5 pt-lg-4"> 
+                <div class="col-12 col-sm-4 pl-0 subscribe text-center"> 
+                    <p class="font-weight-bold mb-4">SUBSCRIBE</p> 
+                    <form role="form" class="d-flex flex-lg-nowrap flex-md-nowrap flex-wrap"> 
+                        <div class="col d-flex flex-wrap form-group pl-0 pr-0"> 
+                            <input type="email" class="back-bl form-control " id="exampleInputEmail1" placeholder="Enter email"> 
+                        </div>                         
+                        <button type="submit" class="btn btn-dark col-12 col-md-auto last-btn">Submit</button>                         
+                    </form>                     
+                </div>                 
+                <div class="col-12 col-sm-4 contact mt-3 mt-sm-0 text-center"> 
+                    <p class="font-weight-bold mb-4">CONTACT</p> 
+                    <p>Have a question or submission?</p> 
+                    <p class="orange">info@unihelp.com</p> 
+                </div>                 
+                <div class="about col-12 col-sm-4 text-center"> 
+                    <p class="font-weight-bold mb-4">ABOUT</p> 
+                    <p>unihelp is an online platform that assists people from GEORGIA to find suitable living spaces for yourself while you study <span class="orange">learn more...</span></p> 
+                </div>                 
+            </div>             
+        </div>         
+        <div class="d-flex foot-nav justify-content-between pb-4 pl-2 pr-2 pt-4 container total"> 
+            <div> 
+                <i class="fab fa-facebook-f"></i> 
+                <i class="fab fa-twitter"></i> 
+                <i class="fab fa-instagram"></i> 
+                <i class="fab fa-tumblr"></i> 
+                <i class="fab fa-google-plus-g"></i> 
+            </div>             
+            <div> 
+                <span class="dis-2 gray-t mr-2">@ UNIHELP 2019, ALL RIGHTS RESERVED, POWERED BY</span> 
+                <span><img src="imgs/IetBZZhB_400x400.png" alt="iconium" class="iconium mr-2">ICONIUM DIGITAL</span> 
+                <span class="dissa gray-t ml-2">LOVE AND AWESOWENESS</span> 
+            </div>             
+        </div>         
+    </footer>     
+</html>
