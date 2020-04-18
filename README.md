@@ -2,8 +2,13 @@
 
 in this series of pages i try to replicate in my own version the concept of the pastashule page making use of boostrap, and CSS as part of my capstone project in the microverse universiti
 
+# Index
 ![screenshot](./scr1.png)
+
+# Search
 ![screenshot](./scr2.png)
+
+# Result
 ![screenshot](./scr3.png)
 
 ## Built With
@@ -13,7 +18,6 @@ in this series of pages i try to replicate in my own version the concept of the 
 ## Authors
 
 👤 Ricardo Vera
-
 - Github: [@ricardo123321](https://github.com/ricardo123321)
 - Twitter: [@ricardo615920830](https://twitter.com/ricardo615920830)
 - Linkedin: [linkedin](https://www.linkedin.com/in/ricardo-vera-7381a81a2/)
