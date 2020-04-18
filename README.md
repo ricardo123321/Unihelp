@@ -37,4 +37,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--the code reviewer
+- the code reviewer
+- Mathew Njuguna
+- Sam Achola
+- Kevin Mutua
