@@ -1,6 +1,6 @@
 # Unihelp
 
-in this series of pages i try to replicate in my own version the concept of the pastashule page making use of boostrap, and CSS as part of my capstone project in the microverse universiti
+in this series of pages, I try to replicate in my own version the concept of the pastashule page making use of bootstrap, and CSS as part of my capstone project in the microverse university
 
 # Index
 ![screenshot](./scr1.png)
@@ -13,7 +13,7 @@ in this series of pages i try to replicate in my own version the concept of the 
 
 ## Built With
 
-- HTML, CSS. and boostrap
+- HTML, CSS. and bootstrap
 
 ## Authors
 
@@ -24,7 +24,7 @@ in this series of pages i try to replicate in my own version the concept of the 
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
